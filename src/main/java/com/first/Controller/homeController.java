@@ -45,6 +45,7 @@ public class homeController {
 		
 		List<Employee> empList = service.getAllEmp();
 		System.out.println("All emp:: "+empList);
+		System.out.println("Test: "+empList);
 		
 		model.addAttribute("empList",empList);
 		return "idTemplate";
